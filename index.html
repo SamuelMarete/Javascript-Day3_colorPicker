@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Picker</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pick Your Background</h1>
+        <div class="color-disp">
+            <input type="color" name="" id="background-color" class="colorinput">
+            <input type="text" class="colorcode" placeholder="#FFFFFF" pattern="^#([A-Fa-f0-9]{6})$" title="Enter a valid hex color code">
+        </div>
+        <h3>Quick Colors</h3>
+        <div class="color-selector">
+            <button class="red"></button>
+            <button class="green"></button>
+            <button class="blue"></button>
+            <button class="orange"></button>
+            <button class="pink"></button>
+            <button class="greenblue"></button>
+            <button class="white"></button>
+            <button class="black"></button>
+        </div>
+        <button class="reset">Reset Background</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
